@@ -3,9 +3,8 @@
 <br>  
 <br>
 
-## This app is designed to provide listeners of KCSM Jazz 91 with a commercial-free Android experience.  
-## The [Official KCSM app](https://play.google.com/store/apps/details?id=com.securenetsystems.kcsm&hl=en) available on Google Play contains advertising that generates revenue for KCSM.         
-## Please bare this in mind while using LibreKCSM and contribute to the station. 
+## This app is designed to provide listeners of KCSM Jazz 91 with a commercial-free Android experience.          
+## If you enjoy KCSM please contribute to the station. 
 
 
 ### Support
