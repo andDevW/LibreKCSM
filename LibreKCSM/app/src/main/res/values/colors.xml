@@ -2,9 +2,9 @@
 <resources>
     <color name="colorPrimary">#546e7a</color>
     <color name="colorPrimaryDark">#030303</color>
-    <color name="colorAccent">#f7f5f6</color>
+    <color name="colorAccent">#0431fa</color>
     <color name="color_navigation_list_background">#8e8e8e</color>
-    <color name="nav.item.background">#e2e4ed</color>
-    <color name="nav.item.background.default">#e2e4ed</color>
+    <color name="nav.item.background">#0431fa</color>
+    <color name="nav.item.background.default">#0431fa</color>
 </resources>
 

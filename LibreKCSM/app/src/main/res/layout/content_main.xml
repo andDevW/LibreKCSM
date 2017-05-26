@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.devnet.drawerkcsm.MainActivity"
+    tools:context="com.anddevw.librekcsm.MainActivity">
     tools:showIn="@layout/app_bar_main">
     <com.google.android.exoplayer2.ui.SimpleExoPlayerView
         android:id="@+id/video_view"
@@ -23,7 +23,9 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintVertical_bias="0.085"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent">
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
     </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
     <ImageView
@@ -38,7 +40,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="-2dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="13dp" />
 
 
 </android.support.constraint.ConstraintLayout>
