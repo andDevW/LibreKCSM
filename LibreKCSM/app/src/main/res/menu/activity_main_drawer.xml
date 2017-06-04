@@ -5,18 +5,18 @@
         <item
             android:id="@+id/nav_listen"
             android:icon="@mipmap/ic_listen"
-            android:title="Listen" />
+            android:title="@string/listen" />
         <item
             android:id="@+id/nav_playlist"
             android:icon="@mipmap/ic_playlist"
-            android:title="Schedule" />
+            android:title="@string/playlist" />
         <item
             android:id="@+id/nav_archive"
             android:icon="@mipmap/ic_archive"
-            android:title="Archive" />
+            android:title="@string/archive" />
         <item
             android:id="@+id/nav_contribute"
             android:icon="@mipmap/ic_contribute"
-            android:title="Contribute" />
+            android:title="@string/contribute" />
     </group>
 </menu>

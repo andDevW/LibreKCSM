@@ -5,4 +5,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="playlist">title_playlist</string>
+    <string name="archive">title_archive</string>
+    <string name="contribute">title_contribute</string>
+    <string name="listen">title_listen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

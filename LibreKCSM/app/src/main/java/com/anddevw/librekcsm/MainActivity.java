@@ -4,6 +4,7 @@
 
 package com.anddevw.librekcsm;
 
+import android.app.FragmentManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -42,16 +43,17 @@ import com.google.android.exoplayer2.util.Util;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
     private static final String VIDEO_URI =
             "http://ice5.securenetsystems.net/KCSM";
     private SimpleExoPlayer player;
     private SimpleExoPlayerView playerView;
     private Handler mainHandler;
     private TrackSelection.Factory videoTrackSelectionFactory;
-    private TrackSelector trackSelector;
-    private LoadControl loadControl;
-    private DefaultDataSource.Factory dataSourceFactory;
-    private MediaSource videoSource;
+    //private TrackSelector trackSelector;
+    //private LoadControl loadControl;
+    //private DefaultDataSource.Factory dataSourceFactory;
+    //private MediaSource videoSource;
     private Uri uri;
     private String userAgent;
     private static final DefaultBandwidthMeter bandwidthMeter = new DefaultBandwidthMeter();
@@ -60,9 +62,10 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-//        getSupportActionBar().setTitle(null);
+        //getSupportActionBar().setTitle(null);
 
         playerView = (SimpleExoPlayerView) findViewById(R.id.video_view);
 
@@ -83,6 +86,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void createPlayer() {
+        LoadControl loadControl;
+        TrackSelector trackSelector;
         mainHandler = new Handler();
 
         BandwidthMeter bandwidthMeter = new DefaultBandwidthMeter();
@@ -101,6 +106,8 @@ public class MainActivity extends AppCompatActivity
 
     // Build Data Source Factory, Dash Media Source, and Prepare player using videoSource
     public void preparePlayer() {
+        MediaSource videoSource;
+        DefaultDataSource.Factory dataSourceFactory;
         uriParse();
         dataSourceFactory = buildDataSourceFactory(bandwidthMeter);
         videoSource = new ExtractorMediaSource(uri, dataSourceFactory, new DefaultExtractorsFactory(), mainHandler, null);
