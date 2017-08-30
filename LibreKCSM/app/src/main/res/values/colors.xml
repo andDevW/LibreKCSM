@@ -6,5 +6,6 @@
     <color name="color_navigation_list_background">#8e8e8e</color>
     <color name="nav.item.background">#e2e4ed</color>
     <color name="nav.item.background.default">#e2e4ed</color>
+    <color name="colorRed">#ff020f</color>
 </resources>
 
