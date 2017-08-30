@@ -3,9 +3,21 @@
 <br>  
 <br>
 
-## This app is designed to provide listeners of KCSM Jazz 91 with a commercial-free Android experience.          
-## If you enjoy KCSM please contribute to the station. 
+## This app is designed to provide listeners of KCSM Jazz 91 with a commercial-free Android experience.   
+## Listen to KCSM live, get up-to-date playlist info, listen to KSCM's entire archive of past shows, and contribute to KCSM and become a sustainer.
 
+## This app doesn't generate ad revenue for KCSM.                                                                                  If you enjoy KCSM please contribute to the station. 
+<img src="https://github.com/andDevW/LibreKCSM/blob/master/LibreKCSM/device-home-2017-08-30-142200.png" 
+width="320" height="569" /> 
+<img src="https://github.com/andDevW/LibreKCSM/blob/master/LibreKCSM/device-nav-2017-08-30-142136.png" 
+width="320" height="569" /> 
+
+<img src="https://github.com/andDevW/LibreKCSM/blob/master/LibreKCSM/device-playlist-2017-08-30-142240.png"
+width="320" height="569" /> 
+<img src="https://github.com/andDevW/LibreKCSM/blob/master/LibreKCSM/device-archive-2017-08-30-142330.png" 
+width="320" height="569" /> 
+
+***  
 
 ### Support
 Feature requests and bugs: please [create an issue on GitHub](https://github.com/andDevW/LibreKCSM/issues/).
@@ -38,6 +50,5 @@ If not, see https://www.gnu.org/licenses.
 
 ### Trademarks
 
-*Android is a trademark of Google Inc.*        
-*Google Play is a trademark of Google Inc.*      
+*Android is a trademark of Google Inc.*             
 *Copyright (c) 2015-2017 Andrew Wright (andDevW)*  
