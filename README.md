@@ -1,5 +1,8 @@
 # LibreKCSM
-<img src="https://github.com/andDevW/LibreKCSM/blob/master/LibreKCSM/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
+
+### CLICK THE ICON TO DOWNLOAD andDevW SIGNED APK ###
+<a href="https://anddevw.com/assets/apk/librekcsm/app-release.apk" target="_blank">
+<img src="https://github.com/andDevW/LibreKCSM/blob/master/LibreKCSM/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="Get it on F-Droid"/></a>   
 <br>  
 <br>
 
