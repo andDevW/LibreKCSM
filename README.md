@@ -53,5 +53,5 @@ If not, see https://www.gnu.org/licenses.
 
 ### Trademarks
 
-*Android is a trademark of Google Inc.*             
+*Android* is a trademark of *Google Inc.*             
 *Copyright (c) 2015-2017 Andrew Wright (andDevW)*  
